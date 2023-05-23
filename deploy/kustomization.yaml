@@ -1,0 +1,10 @@
+secretGenerator:
+  - name: db-password
+    literals:
+      - password=supersecurepasswordhere
+  - name: django
+    literals:
+      - secret=secret123
+resources:
+  - postgres.yaml
+  - django.yaml
